@@ -1,0 +1,77 @@
+/* .main{
+    background-color: aqua;
+} */
+.input{
+    width: 16rem;
+}
+.navbar{
+    box-shadow: 1px 1px 5px gray;
+}
+.Exclusive{
+   font-weight: 700;
+}
+.menu{
+    width: 30px;
+}
+.hero img {
+    width: 90%;
+    background-color: blanchedalmond;
+}
+.red-box{
+    width: 20px;
+    height: 35px;
+    background-color: red;
+    color: red;
+    border-radius: 5px;
+}
+.today h4{
+    color: red;
+    font-weight: 700;
+}
+.card-sec-1{
+    color: gray;
+}
+.price{
+
+    color: red;
+}
+.view button{
+    padding: 10px 20px;
+    color: white;
+    background-color: #DB4444;
+    border: none;
+    border-radius: 5px;
+}
+.service{
+   padding-left: 25px;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer-child ul{
+    list-style-type: none;
+}
+.small-foot{
+    background-color: black;
+    color: rgb(91, 89, 89);
+}
+
+@media (max-width:700px){
+   .sbox-1{
+    display: flex;
+        justify-content: center;
+   }
+    .sbox-1 img{
+        width: 80%;
+        
+    }
+    .ps-1{
+        display: flex;
+            justify-content: center;
+       }
+        .ps-1 img{
+            width: 80%;
+            
+        }
+}
