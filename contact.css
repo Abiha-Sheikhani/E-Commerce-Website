@@ -1,0 +1,81 @@
+.input{
+    width: 16rem;
+}
+.navbar{
+    box-shadow: 1px 1px 5px gray;
+}
+.Exclusive{
+   font-weight: 700;
+}
+.menu{
+    width: 30px;
+}
+.call{
+    border: 5px solid rgba(247, 244, 244, 0.547);
+    width: 320px;
+    line-height: 25px;
+}
+.call-to-us{
+    border-bottom: 1px solid rgb(221, 216, 216);
+}
+.form{
+    border: 5px solid rgba(247, 244, 244, 0.547);
+    width: 900px;
+}
+.input2{
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(199, 194, 194);
+}
+textarea{
+    width: 800px;
+    height: 170px;
+    border-radius: 5px;
+    border: 1px solid rgb(199, 194, 194);
+}
+.view button{
+    padding: 10px 20px;
+    color: white;
+    background-color: #DB4444;
+    border: none;
+    border-radius: 5px;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer-child ul{
+    list-style-type: none;
+}
+.small-foot{
+    background-color: black;
+    color: rgb(91, 89, 89);
+}
+
+
+@media (max-width:915px){
+    .form{
+        width: 700px;
+    }
+    textarea{
+        width: 600px;
+    }
+}
+@media (max-width:720px){
+    .form{
+        width: 500px;
+    }
+    textarea{
+        width: 400px;
+    }
+}
+
+@media (max-width:550px){
+.form{
+    width: 300px;
+}
+textarea{
+    width: 200px;
+}
+}

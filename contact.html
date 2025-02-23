@@ -8,6 +8,162 @@
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    
+    <div class="main">
+        <nav class="navbar navbar-expand-lg mb-5">
+            <div class="container-fluid">
+                <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+                    aria-controls="offcanvasScrolling"><img class="menu"
+                        src="Assets/menu_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt=""></button>
+                <a class="navbar-brand mx-5 Exclusive" href="#">Exclusive</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active mx-3" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active mx-3" aria-current="page" href="./contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active mx-3" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active ms-3" aria-current="page" href="#">Signup</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex me-2" role="search">
+                        <input class="form-control me-2 input" type="search" placeholder="What are you looking for?"
+                            aria-label="Search">
+                    </form>
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active mx-1 " aria-current="page" href="#"><img src="Assets/Wishlist.png"
+                                    alt=""></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active mx-1 me-5" aria-current="page" href="#"><img
+                                    src="Assets/Cart1 with buy.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+            id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class=" navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active ms-3" aria-current="page" href="#">Women`s Fashion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active ms-3" aria-current="page" href="#">Men`s Fashion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active ms-3" aria-current="page" href="#">Electronics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active ms-3" aria-current="page" href="#">Home and style</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active ms-3" aria-current="page" href="#">Medicine</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active ms-3" aria-current="page" href="#">Sports and outdoors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active ms-3" aria-current="page" href="#">Baby`s and toys</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active ms-3" aria-current="page" href="#">Groceries and pets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active ms-3" aria-current="page" href="#">Health and beauty</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="work d-flex justify-content-center gap-5 flex-wrap  ">
+            <div class="call text-center py-3 my-5">
+                <div class="call-to-us">
+                 <h3><img src="Assets/icons-phone.png" alt="" class="me-3">Call to us</h3>  
+                  <p>We are available 24/7, 7 days a week.</p>
+                  <p>Phone: +8801611112222</p>
+                </div>
+                <div class="write mt-3">
+                    <h3><img src="Assets/icons-mail.png" alt="" class="me-3">Write to us</h3>
+                    <p>Fill out our form and we will contact you within 24 hours.</p>
+                    <p>Emails: customer@exclusive.com</p>
+                    <p>Emails: support@exclusive.com</p>
+                </div>
+            </div>
+            <div class="form py-3 my-5 ">
+              <div class="small my-3 d-flex justify-content-evenly flex-wrap"> 
+                 <input type="text" class="input2 p-2 my-3" placeholder="Your Name *">
+                <input type="email" class="input2 p-2 my-3" placeholder="Your Email *">
+                <input type="number" class="input2 p-2 my-3" placeholder="Your Phone *">
+            </div>
+            <div class="big my-4 mx-5" >
+               <textarea placeholder="Your Message" class="p-2"></textarea> 
+            </div>
+               <div class="view d-flex justify-content-end">
+                <button class="me-5">Send Mesages</button>
+            </div>
+            </div>
+        </div>
+        <div class="footer d-flex justify-content-evenly mt-5 py-5 flex-wrap">
+            <div class="footer-child mx-4">
+                <h4 class="mb-4">Exclusive </h4>
+                <h5 class="mb-4">Subscribe</h5>
+                <p>Get 10% off your first order</p>
+                <input type="email" placeholder="Enter your email">
+            </div>
+            <div class="footer-child mx-4">
+                <h5 class="mb-4">Support</h5>
+                <p>111 Bijoy sarani, Dhaka,
+                    <br> DH 1515, Bangladesh.
+                </p>
+                <p>exclusive@gmail.com</p>
+                <p>+88015-88888-9999</p>
+            </div>
+            <div class="footer-child mx-4">
+                <h5 class="ms-4 mb-4">Account</h5>
+                <ul>
+                    <li class="my-2">My Account</li>
+                    <li class="my-2">Login/Register</li>
+                    <li class="my-2">Wishlist</li>
+                    <li class="my-2">Cart</li>
+                    <li class="my-2">Shop</li>
+                </ul>
+            </div>
+            <div class="footer-child mx-4">
+                <h5 class="ms-4 mb-4">Quick Link</h5>
+                <ul>
+                    <li class="my-2">Privacy Policy</li>
+                    <li class="my-2">Terms of use</li>
+                    <li class="my-2">FAQ</li>
+                    <li class="my-2">Contact</li>
+                </ul>
+            </div>
+            <div class="footer-child">
+                <h5 class="mb-4">Download app</h5>
+                <p>Save $3 with App New User Only</p>
+                <img src="Assets/Frame 719.png" alt="">
+                <div><img src="Assets/Frame 741.png" alt="" class="my-3"></div>
+            </div>
+        </div>
+        <div class="small-foot d-flex justify-content-center">
+            <p>Copyright Rimel 2022. All right reserved</p>
+        </div>
+    </div>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
