@@ -1,0 +1,41 @@
+.input{
+    width: 16rem;
+}
+.navbar{
+    box-shadow: 1px 1px 5px gray;
+}
+.Exclusive{
+   font-weight: 700;
+}
+.menu{
+    width: 30px;
+}
+.founder{
+    border: none;
+}
+.service{
+    padding-left: 25px;
+ }
+ .footer{
+    background-color: black;
+    color: white;
+}
+.footer-child ul{
+    list-style-type: none;
+}
+.small-foot{
+    background-color: black;
+    color: rgb(91, 89, 89);
+}
+
+
+@media (max-width:710px){
+    .girls-img img{
+        width: 500px;
+    }
+}
+@media (max-width:510px){
+    .girls-img img{
+        width: 300px;
+    }
+}
