@@ -8,13 +8,29 @@
     width: 30px;
 }
 
-
-
-
-
-
-
-
+.form-picture img{
+    height: 600px;
+    width: 700px;
+}
+.view button{
+    padding: 10px 250px;
+    color: white;
+    background-color: #DB4444;
+    border: none;
+    border-radius: 5px;
+}
+.buttn button{
+    padding: 10px 220px;
+    background-color: white ;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.form-form input{
+    display: block;
+    border: none;
+    border-bottom: 1px solid slategray;
+    padding-bottom: 5px;
+}
 
 .footer{
     background-color: black;
@@ -27,3 +43,36 @@
     background-color: black;
     color: rgb(91, 89, 89);
 }
+
+@media (max-width:710px) {
+    .form-picture img{
+        width: 500px;
+        height: 500px;
+    }
+    .view button{
+        padding: 10px 150px;
+    }
+    .buttn button{
+        padding: 10px 120px;
+    }
+}
+@media(max-width:500px){
+    .form-picture img {
+        width: 300px;
+        height: 300px;
+    }
+    .view button{
+        padding: 10px 90px;
+    }
+    .buttn button{
+        padding: 10px 60px;
+    }
+}
+
+
+
+
+
+
+
+
